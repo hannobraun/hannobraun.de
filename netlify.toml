@@ -7,3 +7,45 @@ ZOLA_VERSION = "0.10.1"
 
 [context.deploy-preview]
 command = "zola build --base-url $DEPLOY_PRIME_URL"
+
+
+# Page redirects
+
+[[redirects]]
+from   = "/vndf"
+to     = "/vndf/home"
+status = 302
+force  = false
+
+
+# Domain redirects
+
+[[redirects]]
+from   = "https://www.hannobraun.de/*"
+to     = "https://hannobraun.de/:splat"
+status = 301
+force  = true
+
+[[redirects]]
+from   = "https://files.hannobraun.de/*"
+to     = "https://hannobraun.de/:splat"
+status = 301
+force  = true
+
+[[redirects]]
+from   = "https://embedded.hannobraun.de/*"
+to     = "https://hannobraun.de/embedded/:splat"
+status = 301
+force  = true
+
+[[redirects]]
+from   = "https://vndf.de/*"
+to     = "https://hannobraun.de/vndf/:splat"
+status = 301
+force  = true
+
+[[redirects]]
+from   = "https://www.vndf.de/*"
+to     = "https://hannobraun.de/vndf/:splat"
+status = 301
+force  = true
