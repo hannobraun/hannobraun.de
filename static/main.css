@@ -1,3 +1,8 @@
+a {
+	font-weight: bold;
+	color:     #1010c0;
+}
+
 body {
 	font-family: Helvetica;
 	color      : #111111;
@@ -46,6 +51,10 @@ main table p.project-year {
 	font-size: 90%;
 }
 
+hr {
+	width : 25em;
+	margin: 3em auto;
+}
 
 footer {
 	width : 25em;
@@ -66,14 +75,4 @@ footer table th {
 
 footer table p {
 	margin: 0;
-}
-
-hr {
-	width : 25em;
-	margin: 3em auto;
-}
-
-a {
-	font-weight: bold;
-	color:     #1010c0;
 }
