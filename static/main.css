@@ -55,6 +55,19 @@ footer {
 	opacity  : 0.85;
 }
 
+footer table * {
+	vertical-align: text-top;
+}
+
+footer table th {
+	text-align: right;
+	padding:    0.3em 0.8em;
+}
+
+footer table p {
+	margin: 0;
+}
+
 hr {
 	width : 25em;
 	margin: 3em auto;
