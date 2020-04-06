@@ -27,6 +27,18 @@ status = 301
 force  = true
 
 [[redirects]]
+from   = "https://hannobraun.eu/*"
+to     = "https://hannobraun.de/:splat"
+status = 301
+force  = true
+
+[[redirects]]
+from   = "https://www.hannobraun.eu/*"
+to     = "https://hannobraun.de/:splat"
+status = 301
+force  = true
+
+[[redirects]]
 from   = "https://files.hannobraun.de/*"
 to     = "https://hannobraun.de/:splat"
 status = 301
